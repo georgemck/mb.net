@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+/*@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");*/
 
 /*
 	Dimension by HTML5 UP
@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1655,4 +1658,35 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
+    }
+
+.work-div {
+  width: 100%;
+  display: flex;
+}
+
+.work-div2 {
+  margin-top: 25px;
+}
+
+.work-div-img {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.work-div-img img {
+  width: 59%;
+  height: 200px;
+}
+
+.work-div-p {
+  width: 50%;
+}
+
+.work-div-p p {
+  padding-left: 8px;
+  word-wrap: inherit;
+}
 		}
