@@ -1700,6 +1700,12 @@ input, select, textarea {
   height: 200px;
 }
 
+@media screen and (max-width: 500px) {
+  .work-div-img img {
+    width: 100%;
+  }
+}
+
 .work-div-p {
   width: 50%;
 }
