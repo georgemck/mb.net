@@ -7,6 +7,25 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+    
+.article-nav {
+  list-style: none;
+  display: flex;
+  position: relative;
+  bottom: 55px;
+  margin-bottom: 0px;
+}
+
+.article-nav li {
+  padding: 10px;
+}
+
+.article-nav li:hover {
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1689,4 +1708,3 @@ input, select, textarea {
   padding-left: 8px;
   word-wrap: inherit;
 }
-		}
