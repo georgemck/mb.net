@@ -7,6 +7,23 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+    
+.article-nav {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.article-nav li {
+  padding-right: 15px;
+}
+
+.article-nav li:hover {
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -735,11 +752,9 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		margin: 0 0 2rem 0;
-		padding-left: 1em;
 	}
 
 		ul li {
-			padding-left: 0.5em;
 		}
 
 		ul.alt {
@@ -1542,7 +1557,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
 			-ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
+			padding: .8rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
@@ -1681,6 +1696,12 @@ input, select, textarea {
   height: 200px;
 }
 
+@media screen and (max-width: 500px) {
+  .work-div-img img {
+    width: 100%;
+  }
+}
+
 .work-div-p {
   width: 50%;
 }
@@ -1689,4 +1710,14 @@ input, select, textarea {
   padding-left: 8px;
   word-wrap: inherit;
 }
-		}
+
+iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.nav-div {
+  bottom: 55px;
+  display: flex;
+  justify-content: space-between;
+}
